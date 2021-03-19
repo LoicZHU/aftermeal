@@ -1,0 +1,475 @@
+/* ---------- general ---------- */
+:root {
+  --pink: #f63e5e;
+  --cyan: #13bcc2;
+  --teal: #398c8f;
+  --fuchsia: #c21389;
+  --lightgrey: #ced4da;
+  --grey: #868e96;
+}
+
+/* font family */
+body {
+  font-family: Open Sans, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Dancing Script, cursive, sans-serif;
+  font-weight: bold;
+}
+
+.search-text {
+  font-family: Roboto, sans-serif;
+}
+
+.card-title {
+  font-family: Dancing Script, cursive, sans-serif;
+}
+
+
+/* header & footer */
+#navbarTogglerDemo02 a {
+  color: white;
+}
+
+.active {
+  color: teal !important;
+  background-color: white !important;
+}
+
+form input::placeholder {
+  color: white !important;
+}
+
+form input:focus {
+  border-color: lightgrey !important;
+  box-shadow: none !important;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--pink);
+}
+
+/* content */
+div.container-fluid {
+  padding-bottom: 400px;
+}
+
+main {
+  padding-top: 50px;
+}
+
+/* color */
+.pink {
+  color: var(--pink);
+}
+
+.cyan {
+  color: var(--cyan);
+}
+
+.teal {
+  color: var(--teal);
+}
+
+.fuchsia {
+  color: var(--fuchsia);
+}
+
+/* bg color */
+.bg-teal {
+  background-color: var(--teal);
+}
+
+/* border */
+.border-cyan {
+  border-color: var(--cyan);
+  border-radius: 12px;
+}
+
+.border-pink {
+  border-color: var(--pink)
+}
+
+.border-radius-button {
+  border-radius: 8px;
+}
+
+.border-radius-card {
+  border-radius: 12px;
+}
+
+/* font size */
+h1 {
+  font-size: 56px;
+}
+
+h2, h3 {
+  font-size: 30px;
+
+}
+
+.card-title,
+.card-title-myr {
+  font-size: 28px;
+  margin-top: unset;
+}
+
+.nav-link,
+.search-text,
+.footer-link {
+  font-size: 18px;
+}
+
+.footer-link {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-copyright {
+  font-size: 14px;
+}
+
+/* title */
+h1,
+h2,
+h3,
+h4 {
+  text-transform: lowercase;
+}
+
+h1:first-letter,
+h2:first-letter,
+h3:first-letter,
+h4:first-letter {
+  text-transform: uppercase;
+}
+
+/* card */
+.box-shadow-card {
+  box-shadow: 0 2px 4px 0 rgba(246, 62, 94, 0.5),
+  3px 2px 4px 0 rgba(181, 181, 181, 0.5);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 50vw;
+  object-fit: cover;
+}
+
+/* button */
+.btn.border-pink:hover {
+  background-color: var(--pink);
+  color: white;
+}
+
+/* ---------- home page ---------- */
+.h1-home {
+  font-size: 22px;
+  text-transform: none;
+}
+
+p.headline {
+  font-size: 10px;
+}
+
+a.btn[href="desserts.html"] {
+  font-size: 10px;
+}
+
+.card-img-blue {
+  border-radius: 100%;
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  margin-top: unset;
+}
+
+.big-dash {
+  border-top: 3px solid var(--pink);
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.bg-home-1 {
+  background-image: url("../img/home/flat-lay-2583213.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.bg-berries {
+  background-image: url("../img/home/kisspng-portable-network-graphics-berry-clip-art-transpare-berries-png-free-png-images-toppng-5b6d48798f9184.8989780115338886335881.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 70%;
+  height: 70%;
+
+}
+
+.bg-home-2 {
+  background-image: url("../img/home/abundance-1868573_1920.jpg");
+  background-size: cover;
+  width: auto;
+  height: 398px;
+  background-position: center;
+}
+
+.carousel-item > img {
+  height: 260px;
+  object-fit: cover;
+}
+
+
+h4 {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.p-home-size {
+  font-size: 21px;
+}
+
+.link-fuchsia {
+  color: var(--fuchsia);
+}
+
+/* ---------- deserts page ---------- */
+.card {
+  z-index: -1;
+}
+
+.border-pagination {
+  border: 1px solid rgba(246, 62, 94, 0.25);
+  border-radius: 0 !important;
+}
+
+.pagination {
+  font-size: 14px;
+
+}
+
+.bg-dessert {
+  background-image: url("../img/recette-type/lost-cake.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: auto;
+}
+
+.page {
+  color: var(--pink);
+}
+
+/* ---------- recipe page ---------- */
+.h2-recipe-size {
+  font-size: 42px;
+}
+
+form button.border-pink {
+  font-size: 20px;
+}
+
+.dash-list {
+  list-style-type: '- ';
+}
+
+.ingredient-info {
+  font-size: 22px;
+}
+
+.number-size {
+  font-size: 25px;
+}
+
+.icon-size {
+  font-size: 50px;
+}
+
+/* ---------- contact page ---------- */
+input,
+textarea {
+  font-family: Roboto, sans-serif;
+}
+
+/* ---------- media queries ---------- */
+@media (max-height: 280px) {
+  div.big-dash {
+    margin-top: 50px;
+  }
+
+  p.headline {
+    font-size: 10px;
+  }
+}
+
+@media (max-height: 355px) {
+  .big-dash {
+    margin-top: 50px;
+  }
+
+  .headline {
+    font-size: 13px;
+  }
+
+  a[href="desserts.html"] {
+    font-size: 13px;
+  }
+
+  div.bg-berries {
+    width: 20%;
+    height: 20%;
+  }
+}
+
+@media (min-height: 356px) {
+  .big-dash {
+    margin-top: inherit;
+  }
+
+  .headline {
+    font-size: inherit;
+  }
+
+  a[href="desserts.html"] {
+    font-size: inherit;
+  }
+}
+
+
+@media (min-width: 320px) {
+  .card-img-top {
+    height: 35vw;
+  }
+  h2, h3 {
+    font-size: 38px;
+  }
+
+  .bg-berries {
+    width: 40%;
+    height: 40%;
+
+  }
+  .card-img-blue {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carousel-item > img {
+    height: 300px;
+  }
+}
+
+@media (min-width: 576px) {
+  .h1-home {
+    font-size: 34px;
+  }
+
+  p.headline {
+    font-size: 14px;
+  }
+
+  a.btn[href="desserts.html"] {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-img-top {
+    height: 25vw;
+  }
+  .h1-home {
+    font-size: 60px;
+  }
+
+  h2, h3 {
+    font-size: 42px;
+  }
+
+  .h1-home {
+    font-size: 60px;
+  }
+
+  p.headline {
+    font-size: 16px;
+  }
+
+  a.btn[href="desserts.html"] {
+    font-size: 16px;
+  }
+
+  .bg-berries {
+    width: 40%;
+    height: 40%;
+
+  }
+
+  .card-img-blue {
+    width: 200px;
+    height: 200px;
+
+  }
+
+  .carousel-item > img {
+    height: 400px;
+  }
+
+  .pagination {
+    font-size: 16px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  div.container-fluid {
+    padding-bottom: 300px;
+  }
+
+  .card-img-top {
+    height: 15vw;
+  }
+  .h1-home {
+    font-size: 78px;
+  }
+
+  h2, h3 {
+    font-size: 48px;
+  }
+  .bg-berries {
+    width: 40%;
+    height: 40%;
+
+  }
+
+  .card-img-blue {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carousel-item > img {
+    height: 600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .h1-home {
+    font-size: 88px;
+  }
+}

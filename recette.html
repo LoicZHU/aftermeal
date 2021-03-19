@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  
+  <!-- bootstrap  -->
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" rel="stylesheet">
+  
+  <!-- Dancing Script + Open Sans + Roboto -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+  
+  <!-- font awesome 4.7.0 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Recette - The After Meal</title>
+</head>
+
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-teal fixed-top ">
+    <div class="container-fluid pb-0">
+      <div class="row flex-grow-1 justify-content-center">
+        <div class="col-12 col-lg-10">
+          
+          <div class="row justify-content-between justify-content-lg-around align-items-center">
+            <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+              <a class="navbar-brand my-lg-1" href="index.html">
+                <img class="img-fluid py-lg-2" src="assets/img/header-footer/The%20After%20Meal.png" alt="logo The After Meal">
+              </a>
+            </div>
+            
+            <div class="col-auto d-lg-none">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            
+            <div class="col-lg">
+              <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                <ul class="navbar-nav nav-pills mt-3 mt-lg-0">
+                  <li class="nav-item mx-lg-2 mx-xl-3">
+                    <a class="nav-link ps-2 text-white" href="index.html">Accueil</a>
+                  </li>
+                  <li class="nav-item mx-lg-2 mx-xl-3">
+                    <a class="nav-link ps-2" href="desserts.html">Nos desserts</a>
+                  </li>
+                  <li class="nav-item mx-lg-2 mx-xl-3">
+                    <a class="nav-link ps-2" aria-current="page" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+                
+                <form class="d-flex mt-2 mx-0 d-lg-none">
+                  <input class="form-control me-2 bg-transparent text-white" type="search"
+                    placeholder="Recherche..." aria-label="Search">
+                  <button class="btn bg-white teal" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-search" viewBox="0 0 16 16">
+                      <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                  </button>
+                </form>
+              </div>
+            </div>
+            
+            <div class="d-none d-lg-block col-lg-3">
+              <form class="d-flex mt-2 mx-0 mt-lg-0">
+                <input class="form-control me-2 bg-transparent text-white" type="search"
+                  placeholder="Recherche..." aria-label="Search">
+                <button class="btn bg-white teal" type="submit">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-search" viewBox="0 0 16 16">
+                    <path
+                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="container-fluid min-vh-100 position-relative">
+  <main>
+    <div class="row justify-content-center">
+      <div class="col-11 col-lg-9">
+        <div class="row my-3">
+          <div class="col-12 col-lg-2">
+            <a class="link-fuchsia" href="desserts.html">> Retour à la liste</a>
+          </div>
+        </div>
+      
+        <section>
+          <article class="row justify-content-center justify-content-lg-end">
+            <div class="row my-3">
+              <div class="col-12">
+                <h1 class="pink text-center">panna cotta à la fraise</h1>
+              </div>
+            </div>
+  
+            <div class="col-11 col-lg-10">
+              <div class="row my-3">
+                <div class="col">
+                  <img class="img-fluid my-3 my-lg-0"
+                    src="assets/img/recette-type/Delicate%20fruit%20desserts%20Stock%20Photo%2003.jpg"
+                    alt="panna cotta à la fraise">
+                </div>
+      
+                <div class="col-12 col-md-4 col-lg-5">
+                  <h2 class="cyan h2-recipe-size my-3 my-lg-0">réalisation</h2>
+        
+                  <ul class="list-unstyled">
+                    <li class="fw-bold">Difficulté : Facile</li>
+                    <li class="fw-bold">Préparation : 15 mn</li>
+                    <li class="fw-bold">Cuisson : 10 mn</li>
+                    <li class="fw-bold">Repos : 2 h</li>
+                    <li class="fw-bold">Temps total : 2 h 25 mn</li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="row my-3">
+                <div class="col-12">
+                  <h2 class="cyan h2-recipe-size">ingrédients <span class="ingredient-info">/ pour 4 personnes</span></h2>
+        
+                  <ul class="list-unstyled dash-list">
+                    <li>
+                      25 cl de crème liquide entière
+                    </li>
+                    <li>
+                      15 cl de lait
+                    </li>
+                    <li>
+                      50 g de sucre en poudre
+                    </li>
+                    <li>
+                      1 gousse de vanille
+                    </li>
+                    <li>
+                      3 feuilles de gélatine (ou 2 g d'agar-agar)
+                    </li>
+                    <li>
+                      250 de fraises
+                    </li>
+                    <li>
+                      50 g de sucre en poudre (+/- selon si vos fraises sont sucrés ou non)
+                    </li>
+                    <li>
+                      Quelques feuilles de menthe fraîches
+                    </li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="row my-3">
+                <div class="col-12">
+                  <h2 class="cyan h2-recipe-size">préparation</h2>
+        
+                  <ul class="list-unstyled">
+                    <li class="my-3">
+                      <div class="row w">
+                        <div class="col-12 text-center col-sm-2 col-xxl-1">
+                          <span class="fa-stack fa-1x number-size ">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <span class="fa-stack-1x">1</span>
+                          </span>
+                        </div>
+              
+                        <div class="col">
+                          <p class="mb-0">
+                            Placer les feuilles de gélatine à ramollir 10 min dans un bol d'eau froide. Fendre la gousse
+                            de vanille en deux et récupérer les grains en grattant à l'aide d'un couteau.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="my-3">
+                      <div class="row w">
+                        <div class="col-12 text-center col-sm-2 col-xxl-1">
+                          <span class="fa-stack fa-1x number-size ">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <span class="fa-stack-1x">2</span>
+                          </span>
+                        </div>
+              
+                        <div class="col">
+                          <p class="mb-0">
+                            Porter à ébullition la crème, le lait, le sucre, les grains de vanille ainsi que la gousse.
+                            Hors du feu, retirer de vanille puis ajouter les feuilles de gélatine essorées et mélanger jusqu'à dissolution complète.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="my-3">
+                      <div class="row align-items-center">
+                        <div class="col-12 text-center col-sm-2 col-xxl-1">
+                          <span class="fa-stack fa-1x number-size ">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <span class="fa-stack-1x">3</span>
+                          </span>
+                        </div>
+              
+                        <div class="col">
+                          <p class="mb-0">
+                            Verser dans des verrines et laisser refroidrir à température ambiante avant de réserver 2 h au réfrigérateur (peut se préparer la veille).
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="my-3">
+                      <div class="row align-items-center">
+                        <div class="col-12 text-center col-sm-2 col-xxl-1">
+                          <span class="fa-stack fa-1x number-size ">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <span class="fa-stack-1x">4</span>
+                          </span>
+                        </div>
+              
+                        <div class="col">
+                          <p class="mb-0">
+                            Préparer le coulis dans une casserole, faire chauffer les fraises, le sucre et les feuilles de menthe préalablement hachées, à feu moyen pendant 10 à 15 minutes de façon à obtenir un coulis (mixer au mixeur plongeant si besoin).
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="my-3">
+                      <div class="row align-items-center">
+                        <div class="col-12 text-center col-sm-2 col-xxl-1">
+                          <span class="fa-stack fa-1x number-size ">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <span class="fa-stack-1x">5</span>
+                          </span>
+                        </div>
+              
+                        <div class="col">
+                          <p class="mb-0">
+                            Passer la préparation au tamis afin d'obtenir un coulis lisse et de retirer les morceaux de
+                            menthe (facultatif).
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="my-3">
+                      <div class="row align-items-center">
+                        <div class="col-12 text-center col-sm-2 col-xxl-1">
+                          <span class="fa-stack fa-1x number-size ">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <span class="fa-stack-1x">6</span>
+                          </span>
+                        </div>
+              
+                        <div class="col">
+                          <p class="mb-0">
+                            Verser le coulis sur les panna cotta, décorer de fraises et feuilles de menthe.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="my-3">
+                      <div class="row align-items-center">
+                        <div class="col-12 text-center col-sm-2 col-xxl-1">
+                          <i class="fa fa-home icon-size" aria-hidden="true"></i>
+                        </div>
+              
+                        <div class="col">
+                          <p class="mb-0">
+                            Si vous n'aimez pas la menthe, vous pouvez la supprimer ou la remplacer par des feuilles de basilic !
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+      </div>
+    </div>
+    
+    <div class="row justify-content-center">
+      <div class="col-9">
+        <section class="row mt-3 mb-5 justify-content-center">
+          <div class="col-12">
+            <h3 class="cyan h2-recipe-size text-center">plus de recettes</h3>
+          </div>
+    
+          <div class="col-11 my-2 col-sm-8 col-lg-4">
+            <a href="#" class="text-decoration-none">
+              <div class="card border-pink box-shadow-card border-radius-card overflow-hidden">
+                <img src="assets/img/desserts/strawberry-ice-cream-2239377_640.jpg"
+                  class="card-img-top" alt="sorbet à la fraise">
+                <div class="card-body">
+                  <h4 class="card-title pink">Sorbet à la fraise</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-11 my-2 col-sm-8 col-lg-4">
+            <a href="#" class="text-decoration-none">
+              <div class="card border-pink box-shadow-card border-radius-card overflow-hidden border-1">
+                <img src="assets/img/recette-type/macarons-4053115_1280.jpg"
+                  class="card-img-top" alt="macarons">
+                <div class="card-body">
+                  <h4 class="card-title pink">Macarons</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-11 my-2 col-sm-8 col-lg-4">
+            <a href="#" class="text-decoration-none">
+              <div class="card border-pink box-shadow-card border-radius-card overflow-hidden">
+                <img src="assets/img/recette-type/Desserts%20after%20meals%20Stock%20Photo%2009.jpg"
+                  class="card-img-top" alt="Cheesecake">
+                <div class="card-body">
+                  <h4 class="card-title pink">Cheesecake</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  
+  <footer class="row position-absolute bottom-0 w-100 bg-teal text-white justify-content-center pt-3 pt-lg-0">
+    <div class="col-12 col-lg-10">
+      
+      <div class="row justify-content-center justify-content-lg-start my-2">
+        <div class="col-auto col-lg-2">
+          <a class="my-lg-1" href="index.html">
+            <img class="img-fluid py-lg-2" src="assets/img/header-footer/The%20After%20Meal.png"
+              alt="logo The After Meal">
+          </a>
+        </div>
+      </div>
+      
+      <div class="row align-items-center">
+        <div class="col-12 order-3 col-lg-3 order-lg-1 my-2 my-lg-0">
+          <form class="d-flex mt-2 mx-0 ps-0 mt-lg-0">
+            <input class="form-control me-2 bg-transparent text-white" type="search"
+              placeholder="Recherche..." aria-label="Search">
+            <button class="btn bg-white teal" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-search" viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            </button>
+          </form>
+        </div>
+        
+        <div class="col-12 col-lg d-flex justify-content-center order-1 order-lg-2 my-2 my-lg-0">
+          <div class="row justify-content-center">
+            <div class="col-2 col-lg-3 col-xl-4">
+              <a href="#" class="mx-2 mx-xl-3">
+                <img class="img-fluid" src="assets/icon/cib:facebook.png" alt="facebook">
+              </a>
+            </div>
+            <div class="col-2 col-lg-3 col-xl-4">
+              <a href="#" class="mx-2 mx-xl-3">
+                <img class="img-fluid" src="assets/icon/el:pinterest.png" alt="pinterest">
+              </a>
+            </div>
+            <div class="col-2 col-lg-3 col-xl-4">
+              <a href="#" class="mx-2 mx-xl-3">
+                <img class="img-fluid" src="assets/icon/entypo-social:youtube-with-circle.png" alt="youtube">
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 order-2 col-lg-3 order-lg-3 my-2 my-lg-0">
+          <ul class="text-center my-auto ps-0 text-lg-start">
+            <li class="footer-link">
+              <a href="index.html">> Accueil</a>
+            </li>
+            <li class="footer-link">
+              <a href="desserts.html">> Nos desserts</a>
+            </li>
+            <li class="footer-link">
+              <a href="contact.html">> Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="row my-2 mt-lg-3 mb-lg-1">
+        <div class="col-lg-12 text-center footer-copyright">
+          Copyright 2020 - The After Meal - <a href="#">Mentions légales</a> - <a href="#">CGU</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+</div>
+
+<script crossorigin="anonymous"
+  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
